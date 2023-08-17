@@ -1,9 +1,9 @@
 {
-  "name": "webpack-boilerplate",
+  "name": "adRespect",
   "version": "3.0.2",
-  "description": "Sensible webpack 5 boilerplate using Babel and PostCSS.",
+  "description": "",
   "main": "index.js",
-  "author": "Tania Rascia",
+  "author": "rafal",
   "license": "MIT",
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.js",
