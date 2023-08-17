@@ -1,0 +1,19 @@
+@import 'config.scss';
+
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+@import "node_modules/bootstrap/scss/mixins";
+
+@import 'general.scss';
+
+@import "glightbox.scss";
+@import "swiper-carousel.scss";
+
+@import 'header-navbar.scss';
+@import 'footer-main.scss';
+
+@import './sections/section-intro-carousel.scss';
+@import './sections/section-offer.scss';
+@import './sections/section-realizations.scss';
+@import './sections/section-instagram.scss';
+
+

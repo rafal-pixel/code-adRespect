@@ -1,0 +1,62 @@
+.section-offer {
+    background-color: $grey-color;
+    padding: 120px 0 160px;
+    overflow: hidden;
+    @media(max-width: 991px) {
+        padding: 60px 0 80px;
+    }
+    &__info {
+        margin-bottom: 96px;
+        @media(max-width: 991px) {
+            margin-bottom: 48px;
+        }
+        .heading {
+            padding-left: 2px;
+        }
+    }
+
+    .offer-card {
+        background-color: #fff;
+        max-width: 378px;
+        min-height: 370px;
+        display: flex;
+        flex-direction: column;
+        padding: 48px 20px;
+        border-radius: 28px;
+        transition: .2s;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $beige-color;
+        }
+
+        @media(min-width: 1200px) {
+            padding: 48px 40px;
+        }
+
+        @media(max-width: 991px) {
+            margin-bottom: 20px;
+        }
+
+        &__img {
+            height: 48px;
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 28px;
+        }
+
+        &__heading {
+            margin-bottom: 10px;
+        }
+
+        &__lead {
+            font-size: 14px;
+            line-height: 21px;
+            letter-spacing: -0.14px;
+        }
+
+        .btn-link {
+            margin-top: auto;
+        }
+    }
+}
